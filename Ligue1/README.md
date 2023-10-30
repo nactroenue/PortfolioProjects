@@ -172,16 +172,15 @@ Le projet Power BI contient trois diapositives :
 
 **1. Classement:** Affiche les données du classement des équipes de Ligue1Equipe.csv.
 
-![image](https://github.com/nactroenue/Projet-de-statistiques-de-football-de-Ligue-1/assets/142616253/0140c913-7704-454d-9b9b-dc0fe05e3b13)
+![image](https://github.com/nactroenue/PortfolioProjects/assets/142616253/89638ccb-76bd-4914-b380-a2de5e325769)
 
 **2. Comparaison des équipes:** Permet de comparer les statistiques des équipes.
 
-![image](https://github.com/nactroenue/Projet-de-statistiques-de-football-de-Ligue-1/assets/142616253/7fe8221f-1c82-4b20-8c37-c16557ae41bb)
-
+![image](https://github.com/nactroenue/PortfolioProjects/assets/142616253/976ab745-fd8d-4ed3-8d63-0a36164bb759)
 
 **3. Statistiques des joueurs:** Visualizes player statistics based on their positions.
 
-![image](https://github.com/nactroenue/Projet-de-statistiques-de-football-de-Ligue-1/assets/142616253/e4f17fa8-c852-4db6-b62d-f2951dc38196)
+![image](https://github.com/nactroenue/PortfolioProjects/assets/142616253/1e7e83a1-141c-4a33-abbd-18f73a65e6e1)
 
 ## Usage
 
