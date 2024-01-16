@@ -30,20 +30,20 @@ SELECT
 FROM Song;
 
 --Top 5 des Genres les Plus Populaires par Décennie
-With RankedGenres as (
-    select 
+WITH RankedGenres AS (
+    SELECT 
     g.GenreName,
-    d.StartYear || '-' || d.EndYear as Decade,
-    RANK() over (partition  by d.DecadeID order  by AVG(s.Popularity) desc) as GenreRank
-from  Song s
-join Genre g ON s.GenreID = g.GenreID
-join Decade d ON s.DecadeID = d.DecadeID
-group by g.GenreName, Decade, d.decadeid 
+    d.StartYear || '-' || d.EndYear AS Decade,
+    RANK() over (partition  BY d.DecadeID ORDER BY AVG(s.Popularity) DESC) AS GenreRank
+FROM  Song s
+JOIN Genre g ON s.GenreID = g.GenreID
+JOIN Decade d ON s.DecadeID = d.DecadeID
+GROUP BY g.GenreName, Decade, d.decadeid 
 )
-select  Decade,
+SELECT  Decade,
     array_agg(GenreName) AS TopGenres
-from RankedGenres
-where GenreRank <= 5
+FROM RankedGenres
+WHERE GenreRank <= 5
 group by Decade
 order  by Decade;
 
