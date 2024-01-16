@@ -1,7 +1,7 @@
 --Requête SELECT de base
-select *
-from maison_information
-limit 10;
+SELECT *
+FROM maison_information
+LIMIT 10;
 
 
 -- Statistiques descriptives du prix
@@ -157,8 +157,7 @@ SELECT
     WHEN Ventesannéprécédente IS NOT NULL THEN
       CONCAT(
         ROUND(((Ventestotales - Ventesannéprécédente)::numeric / Ventesannéprécédente) * 100, 2),
-        '%'
-      )
+        '%')
     ELSE 
       NULL
   END AS Pourcentagecroissanceventes
