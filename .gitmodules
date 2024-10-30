@@ -1,0 +1,9 @@
+[submodule "PredictionPrixAppartementsParis"]
+	path = PredictionPrixAppartementsParis
+	url = https://github.com/nactroenue/PredictionPrixAppartementsParis.git
+[submodule "Supply_Chain"]
+	path = Supply_Chain
+	url = https://github.com/nactroenue/Supply_Chain.git
+[submodule "analyse_securite_routiere"]
+	path = analyse_securite_routiere
+	url = https://github.com/nactroenue/analyse_securite_routiere.git
